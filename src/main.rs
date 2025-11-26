@@ -5,7 +5,9 @@ fn main() {
     println!("Number guessing game!");
     let secret_number = rand::rng().random_range(0..=15);
     println!("---------------------");
+    println!("---------------------");
     println!("I'm thinking of a number from 0 to 15");
+    println!("---------------------");
     println!("---------------------");
     loop {
         println!("Guess the number!");
